@@ -1,0 +1,12 @@
+<!-- <div class="traffic-light">
+  <div class="light dark" [class.active]="color === activeColor"></div>
+  <div class="light dark" [class.active]="color === activeColor"></div>
+  <div class="light dark" [class.active]="color === activeColor"></div>
+</div> -->
+
+<div class="traffic-light">
+    <span>{{street}}</span>
+    <div class="light" [ngStyle]="getLightStyles(color)"></div>
+    <div class="light" [ngStyle]="getLightStyles(color)"></div>
+    <div class="light" [ngStyle]="getLightStyles(color)"></div>
+</div>

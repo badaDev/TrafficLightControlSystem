@@ -1,0 +1,64 @@
+.intersection {
+    display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr 1fr;
+    position: relative;
+    gap: 20px;
+    width: 320px;
+    height: 320px;
+  }
+  
+  .road {
+    // position: relative;
+  }
+  
+  .road-horizontal {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 600px;
+    height: 200px;
+    background-color: #363232;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0;
+  }
+  
+  .road-vertical {
+    position: absolute;
+    left: 65%;
+    width: 90px;
+    height: 500px;
+    background-color: #363232;
+    margin: auto 0;
+    padding: 0 3.5rem;
+  }
+
+  .light2 {
+    margin-top: 3rem;
+  }
+
+  .action_btn {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+    button{
+        text-align: center;
+        padding: 0.5rem 1rem;
+        background: #1A5D1A;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        display: block;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .start:hover {
+        background-color: lightgreen;
+    }
+    
+  }
+  

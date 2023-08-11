@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TrafficLightControlSystem';
+
+  resetLights() {
+    // Implement logic to reset traffic lights to initial state
+  }
 }

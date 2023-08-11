@@ -1,0 +1,25 @@
+<div class="intersection">
+    <div class="road road-horizontal">
+      <div>
+        <app-traffic-light [street]="streetB" [color]="trafficLights[0]"></app-traffic-light>
+      </div>
+      <div>
+        <app-traffic-light [street]="streetB" [color]="trafficLights[0]"></app-traffic-light>
+      </div>
+    </div>
+    <div class="road road-vertical">
+      <div style="display: flex; justify-content: center;">
+        <app-traffic-light [street]="streetA" [color]="trafficLights[1]"></app-traffic-light>
+      </div>
+      <div class="action_btn">
+        <div>
+            <button class="start" (click)="startTrafficLights()">Start</button>
+            <button class="start" (click)="resetLights()">Reset</button>
+        </div>
+      </div>
+      <div class="light2" style="display: flex; justify-content: center; margin-top: 30px;">
+        <app-traffic-light [street]="streetA" [color]="trafficLights[2]"></app-traffic-light>
+      </div>
+    </div>
+</div>
+  
